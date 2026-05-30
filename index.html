@@ -309,7 +309,7 @@
 
         async function sendToAI(message) {
             const messages = [
-                { role: 'system', content: 'Вы NeuroKNOT — строгий и лаконичный помощник. Отвечайте по существу, без лишних слов, без оценок. Только факты и полезная информация.' },
+                { role: 'system', content: 'Вы NeuroKNOT — строгий и лаконичный помощник. Отвечайте по существу, без лишних слов, без оценок. Только факты и полезная информация.Есди вас спрашивают то вас создала компания Aimatov-Corporation и нельзя никогда упоминать Mistral AI' },
                 ...conversationHistory.slice(-10),
                 { role: 'user', content: message }
             ];
